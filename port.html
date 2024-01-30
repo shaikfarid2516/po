@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100&family=Permanent+Marker&family=Rock+Salt&family=Zeyada&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            background-image: url('images/hero.png');
+        }
+        .hero{
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            align-items: center;
+            position: relative;
+            top: 200px;
+
+        }
+        .title{
+            
+        }
+        .fon{
+            font-size: 400%;
+            
+            font-family: fnordtwenty-three;
+            text-align: center;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+            
+        }
+        .ful{
+            color: rgb(161, 31, 31);
+        }
+        .im{
+            border-radius: 5px;
+            width: 350px;
+            height: 450px;
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+        }
+        .btn{
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+        .b{
+            width: 130px;
+            height: 50px;
+            cursor: pointer;
+            border: none;
+            border-radius: 15px;
+            font-size: 15px;
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5)
+        }
+        .hire{
+            background-color: red;
+            color: white;
+            
+        }
+        .hire:hover{
+            background-color: rgb(244, 91, 91);
+            color: white;
+            box-shadow: 3px 3px 6px rgb(248, 248, 248)
+            
+        }
+        .contact{
+            background-color: black;color: aliceblue;
+            box-shadow: 3px 3px 6px rgb(248, 248, 248)
+        }
+        .contact:hover{
+            background-color: rgb(226, 223, 223);
+         color: black;
+         box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5)
+            
+        }
+        .abt{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 70%;
+            height: auto;
+            background-color: rgb(251, 251, 251);
+            border-radius: 15px;
+            position: relative;
+            top: 300px;
+            left: 200px;
+            padding: 15px;
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+        }
+        .hea{
+            font-family: 'Rock Salt', cursive;
+            margin-bottom:0px ;
+            
+        }
+        .pa{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .res{
+            width: 10%;
+            height: 40px;
+            border-radius: 5px;
+            border: none;
+            background-color: black;
+            color: white;
+            padding: 5px;
+            transition: background-color 0.9s;
+            cursor: pointer;
+        }
+        .res:hover{
+            background-color: rgb(52, 51, 51);
+            box-shadow: 6px 3px 6px 3px rgba(147, 233, 241, 0.939);
+        }
+        .h{
+            position: relative;
+            top: 430px;
+
+        }
+        .ach{
+            text-align: center;
+            position: relative;
+            top: 350px;
+            font-size: 200%;
+        }
+        .achi{
+            text-align: center;
+            position: relative;
+            top: 180px;
+            left: 12%;
+            width: 80%;
+            font-family: 'Permanent Marker';
+        }
+        @media (max-width:600px){
+            .hero{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
+            .fon{
+                font-size: 370%;
+               margin: 5px;
+            }
+            .im{
+                margin: 5px;
+                width: 80%;
+            }
+            .btn{
+                margin-top: 30px;
+            }
+            .b{
+                
+                width: 100px;
+                height: 40px;
+                font-size: 13px;
+            }
+            .abt{
+                width: 380px;
+                height: auto;
+                position: relative;
+                left: 50px;
+            }
+            .achi{
+                width: 450px;
+                position: relative;
+                left: 0px;
+                text-align: justify;
+                margin: 6px;
+
+            }
+            .res{
+                width: 20%;
+            }
+        }
+        @media(min-width:601px) and (max-width:1200px){
+            .hero{
+                display: flex;
+                gap: 20px;
+                
+            }
+            
+            .fon{
+                font-size: 350%;
+            }
+            .im{
+                width: 300px;
+                height: 400px;
+            }
+            .btn{
+                margin-top: 30px;
+            }
+            .b{
+                
+                width: 100px;
+                height: 50px;
+                font-size: 13px;
+            }
+            .abt{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                width: 70%;
+                position: relative;
+                left: 100px;
+            }
+            .res{
+                width: 15%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <div class="title">
+                <h1 class="fon"><b>I'm Shaik Farid</b></h1>
+                <h1 class="fon ful">FullStack Developer</h1>
+                <h1 class="fon">  and AWS Cloud Engineer</h1>
+                <div class="btn">
+                    <a href="https://www.linkedin.com/in/shaik-farid-049833233/"><button class="hire b"><b>Hire Me</b></button></a>
+                    <a href="#"><button class="contact b"><b>Contact Me</b></button></a>
+                </div>
+            </div>
+            <img class="im" src="/Users/shaikfarid/Desktop/portfoilio/images/WhatsApp Image 2024-01-06 at 12.37.33.jpeg" alt="port">
+        </div>
+        <div class="abt">
+            <h2 class="hea">About Me</h2>
+            <p class="pa">Greetings! I am Shaik Farid, an enthusiastic Information Technology student at Aditya Engineering College. Driven by a deep passion for programming, I adeptly navigate languages such as Python, C, C++, and Java to craft efficient and innovative solutions.
+                In parallel, I am sharpening my Fullstack development skills, aspiring to create seamless and user-friendly applications and also Aws cloud valuable skills in cloud architecture, deployment, and management.</p>
+            <a href="/Users/shaikfarid/Desktop/portfoilio/resume 1.pdf"><button class="res">Resume</button></a>
+        </div>
+        <hr class="h">
+        <h2 class="ach">Achievements</h2>
+        <div class="achi"><p class="achi">As a technology enthusiast, I have successfully achieved certifications in various cutting-edge technologies and programming languages. These certifications demonstrate my commitment to staying at the forefront of the ever-evolving tech landscape. From recognized institutions and platforms, I've earned badges in [AWS Academy Cloud Fundation,Introduction to Cyber Security,Microsoft Azure Administrator,Python IT Specialist, Redhat Linux Enterprises] showcasing my proficiency and dedication to mastering diverse aspects of IT. These certifications validate my expertise and contribute to my continuous pursuit of excellence in the world of technology.</p>
+        </div>
+        
+    </div> 
+</body>
+</html>
